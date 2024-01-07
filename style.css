@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+h2{
+    color: crimson;
+    font-style: italic;
+    padding: 15px;
+}
+h1{
+    padding-left: 15px;
+}
+
+h1 span{
+    color: brown;
+   
+}
+
+.container{
+   display: flex;
+    width: 30%;
+    height: 60%;
+    padding: 20px;
+    margin-left: 12rem;
+}
+
+.box
+{   border-radius: 10px;
+    border:  4px solid rgb(130, 128, 128);
+    margin: 35px;
+    margin-left: 3rem;
+
+}
+
+.box img{
+    margin: 2px;
+    border-radius: 10px;
+}
+
+.box h1{ 
+    
+    margin: 10px;
+}
+
+.box h1:hover{
+    text-decoration: underline;
+}
+
+.box p{
+    margin: 5px;
+}
+@media only screen and (max-width: 768px) {
+    
+
+    .container {
+        flex-direction: column;
+        width: 85%;
+        margin-left: -5px;
+        margin-right: -5px;
+    }
+
+    .box {
+        margin: 18px;
+        
+    }
+
+    .box img{
+        width: 98%;
+    }
